@@ -2,14 +2,18 @@ import { NextResponse } from 'next/server';
 import { getDb } from '@/lib/mongodb';
 
 export async function GET() {
-  const db = await getDb();
-  const features = await db
-    .collection('features')
-    .find({})
-    .sort({ order_index: 1 })
-    .toArray();
-
-  return NextResponse.json(features);
+  try {
+    const db = await getDb();
+    const features = await db
+      .collection('features')
+      .find({})
+      .sort({ order_index: 1 })
+      .toArray();
+    return NextResponse.json(features);
+  } catch (error: any) {
+    console.error('MongoDB error:', error);
+    return NextResponse.json([], { status: 200 });
+  }
 }
 
 export async function POST(request: Request) {
