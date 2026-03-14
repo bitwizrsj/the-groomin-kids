@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
-  title: 'Sunshine Preschool - A Happy Place for Little Learners',
+  title: 'Grooming Kids Preschool - A Happy Place for Little Learners',
   description: 'A happy place for little learners to grow, play, and explore! Quality early childhood education programs.',
   openGraph: {
     images: [

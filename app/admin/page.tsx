@@ -207,7 +207,7 @@ export default function AdminPage() {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-slate-800">Admin Panel</h1>
-              <p className="text-sm text-slate-600">Sunshine Preschool</p>
+              <p className="text-sm text-slate-600">Grooming Kids Preschool</p>
             </div>
           </div>
           <div className="flex items-center gap-4">

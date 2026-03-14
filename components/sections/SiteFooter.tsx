@@ -12,7 +12,7 @@ export function SiteFooter() {
                 <School className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">Sunshine</h3>
+                <h3 className="text-xl font-bold">Grooming Kids</h3>
                 <p className="text-sm text-slate-300">Preschool</p>
               </div>
             </div>
@@ -60,16 +60,16 @@ export function SiteFooter() {
           <div>
             <h4 className="font-bold mb-4">Contact Us</h4>
             <ul className="space-y-2 text-slate-400 text-sm">
-              <li>123 Sunshine Street</li>
+              <li>123 Grooming Kids Street</li>
               <li>Happy Town, HT 12345</li>
               <li>Phone: (555) 123-4567</li>
-              <li>Email: info@sunshinepreschool.com</li>
+              <li>Email: info@Grooming Kidspreschool.com</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400 text-sm">
-          <p>&copy; 2024 Sunshine Preschool. All rights reserved.</p>
+          <p>&copy; 2024 Grooming Kids Preschool. All rights reserved.</p>
         </div>
       </div>
     </footer>

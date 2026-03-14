@@ -20,7 +20,7 @@ export function Navbar() {
           </svg>
         </div>
         <div>
-          <h1 className="text-2xl font-bold text-slate-800 leading-none">Sunshine</h1>
+          <h1 className="text-2xl font-bold text-slate-800 leading-none">Grooming Kids</h1>
           <p className="text-sm text-slate-600">Preschool</p>
         </div>
       </div>

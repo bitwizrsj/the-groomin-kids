@@ -13,7 +13,7 @@ export function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src={heroImage}
-          alt="Welcome to Sunshine Preschool"
+          alt="Welcome to Grooming Kids Preschool"
           fill
           priority
           className="object-cover object-center"
@@ -34,7 +34,7 @@ export function HeroSection() {
             <div className="max-w-lg">
 
               <h2 className="text-4xl md:text-5xl font-extrabold text-slate-800 mb-4 leading-tight">
-                Welcome to <br /> Sunshine Preschool!
+                Welcome to <br /> Grooming Kids Preschool!
               </h2>
 
               <p className="text-base md:text-lg text-slate-700 mb-8">
