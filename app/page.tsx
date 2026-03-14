@@ -67,7 +67,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-sky-50 to-white">
       <HeroSection />
       <ProgramsSection programs={programs} />
-      <WhyChooseUsSection features={features} />
+      <WhyChooseUsSection />
       <ActivitiesSection activities={activities} />
       <SiteFooter />
     </div>
